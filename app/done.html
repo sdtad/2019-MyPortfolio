@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+ 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Дмитрий Сироткин - web-разработчик</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+	<div class="header-fon">
+		<div class="container">
+			<div class="header__img">
+				<a href="index.html"><img src="img/face.jpg" alt="Dmitriy Sirotkin"></a>
+			</div>
+			<div class="header__name">
+				<a href="index.html">Дмитрий Сироткин</a>
+			</div>
+			<div class="header__position">
+				<a href="index.html">web-разработчик</a>
+			</div>
+			<div class="header__telephone">
+				<a href="tel:+380979704417">+38 (097) 970-44-17</a>
+			</div>
+			<nav class="header__menu">
+				<div class="menu-btn"><i class="icon-bars"></i></div>
+				<ul>
+					<li><a href="index.html">web-разработчик</a></li>
+					<li><a href="index.html">услуги</a></li>
+					<li><a href="index.html">портфолио</a></li>
+					<li><a href="index.html">технологии</a></li>
+					<li><a href="index.html">предложения</a></li>
+					<li><a href="index.html">контакты</a></li>
+				</ul>
+			</nav>
+			<div class="header__button">
+				<a class="cons-btn" data-fancybox data-src="#modal" href="javascript:;">Получить консультацию</a>
+			</div>
+			<div class="header__social">
+				<ul>
+					<li><a href="mailto:dpsirotkin@gmail.com" class="post"></a></li>
+					<li><a href="tel:+380979704417" class="tel"></a></li>
+					<li><a href="viber://add?number=+380979704417" class="viber"></a></li>
+					<li><a href="whatsapp://send?phone=+380979704417" class="whatsapp"></a></li>
+					<li><a href="https://github.com/sdtad" class="github"  target="_blank"></a></li>
+				</ul>
+			</div>
+		</div>	
+	</div>
+</header>
+
+<section class="done">
+	<div class="container">
+		<div class="title">
+			Ваше сообщение отправлено!
+		</div>
+		<div class="done-container">
+			<p class="p_big">Спасибо за Ваше сообщение.</p>
+			<p class="p_big">В ближайшее время я с Вами свяжусь.</p>
+		</div>
+	</div>
+</section> 
+
+
+<footer class="footer" id="contacts">
+	<div class="container">
+		<div class="title title-w">Контакты</div>
+		<div class="footer__inner">
+			<div class="footer__contacts">
+				<div class="footer__title">
+					Как со мной связаться
+				</div>
+				<div class="footer__contact">
+					<ul>
+						<li class="f1">Контактное лицо: Дмитрий</li>
+						<li class="f2">Телефон: <a href="tel:+380979704417">+38 (097) 970-44-17</a></li>
+						<li class="f3">E-mail: <a href="mailto:dpsirotkin@gmail.com">dpsirotkin@gmail.com</a></li>
+						<li class="f4">Viber: <a href="viber://add?number=+380979704417">+38 (097) 970-44-17</a></li>
+						<li class="f5">WhatsApp: <a href="whatsapp://send?phone=+380979704417">+38 (097) 970-44-17</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__mode">
+				<div class="footer__title">
+					Режим работы
+				</div>
+				<div class="footer__mode-content">
+					<p>Понедельник-Пятница: 09.00 - 21.00</p>
+					<p>Суббота: 09.00 - 14.00</p>
+					<p>Воскресенье: Выходной</p>	
+						<div class="footer__btn">
+							<a class="footer__btn" data-fancybox data-src="#modal" href="javascript:;">написать мне</a>
+						</div>				
+				</div>
+			</div>
+			<div class="footer__menu">
+				<div class="footer__title">
+					Быстрые ссылки
+				</div>
+				<div class="footer__menu-content">
+					<ul>
+					<li><a href="index.html">web-разработчик</a></li>
+					<li><a href="index.html">услуги</a></li>
+					<li><a href="index.html">портфолио</a></li>
+					<li><a href="index.html">технологии</a></li>
+					<li><a href="index.html">предложения</a></li>
+					<li><a href="index.html">контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div id="modal" class="modal-win">
+	<div class="modal-form-inner">
+		<form class="modal-form">
+			<label class="form-name">
+				<input type="text" placeholder="Ваше имя" required>
+			</label>
+			<label class="form-pass">
+				<input type="password" placeholder="E-mail" required>
+			</label>
+			<label class="form-ta">
+				<textarea name="message" placeholder="Сообщение" required></textarea>
+			</label>			
+			<button name="submit">Отправить</button>
+		</form>
+	</div>	
+</div> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
